@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="15"
+  height="16"
+  viewBox="0 0 15 16"
+>
+    <image
+      id="icon"
+      width="15"
+      height="16"
+      xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAQAAABjX+2PAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfkBQUWCC/FnOTlAAABAUlEQVQY04XQvyuFYRjG8c/hFR1y3kFSpDOcIhl0ZKQzGUxnNp3RZvEH+AModpsyysJgeZ7B5ucgpQwWm2x+lHgMLzK85Zquuu/7e3XdkiQJl2GmcEkSZsNZ4Sph3op+iy48+tGQpmPPdjIHdp1acOXud9wwJRq3L6SQl8NDHlLX936zdfV7q3VurnCVkBx5V6YeSxkOvWiatIcNa2h7dKJq6Se7HbaSJNwnSVgPnSI7w3J80TQZOxiIHcwYi1TJMO7NsEF1ZOoYQV0f5fCtv/BapF9vzNEVc/SqxlytKHbtQ82AB0y5wahXT7pN/wv/NBFvS+ENn5WwaVV36dc+bH8Bv3OKJ6gE1f8AAAAASUVORK5CYII="
+    />
+</svg>

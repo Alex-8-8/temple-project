@@ -1,0 +1,47 @@
+.banners {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
+    @media (max-width: 450px) {
+      padding: 30px 0;
+    }
+  }
+  &__facebook {
+    height: 260px;
+    padding: 34px;
+    background: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in;
+    @media (max-width: 1200px) {
+      margin-bottom: 20px;
+    }
+    &:hover {
+      box-shadow: 0 0 33px -20px rgba(0,0,0,0.75);
+    }
+  }
+  &__title {
+    margin-bottom: 25px;
+    font-style: italic;
+  }
+  &__blank {
+    height: 260px;
+    width: 745px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in;
+    @media (max-width: 820px) {
+      width: 358px;
+    }
+    &:hover {
+      box-shadow: 0 0 33px -20px rgba(0,0,0,0.75);
+    }
+  }
+}

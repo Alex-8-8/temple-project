@@ -1,0 +1,53 @@
+@import "./utils";
+
+.construction {
+  height: 560px;
+  background-image: url("../images/construction.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__wrapper {
+    position: relative;
+    height: 100%;
+  }
+  &__buttons {
+    display: flex;
+    position: absolute;
+    height: 56px;
+    bottom: 70px;
+    left: 0;
+    @media (max-width: 1200px) {
+      left: 20px;
+    }
+    @media (max-width: 450px) {
+      height: 112px;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      flex-direction: column;
+    }
+  }
+  &__progress {
+    height: 100%;
+    width: 212px;
+    font-size: 18px;
+    padding-right: 44px;
+  }
+  &__more {
+    height: 100%;
+    width: 146px;
+    color: #fff;
+    background: $links-buttons-color;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    @media (max-width: 450px) {
+      width: 212px;
+    }
+    &:hover {
+      border: 2px solid $links-buttons-color;
+      background: #fff;
+      color: $links-buttons-color;
+    }
+  }
+}
