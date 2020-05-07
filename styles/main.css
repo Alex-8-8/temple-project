@@ -298,7 +298,7 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
     height: calc(100vh - 150px);
-    width: 100vw;
+    width: calc(100vw - 17px);
     z-index: 1;
     background-color: #f4f4f4; }
     .navigation__list--active .navigation__item {
@@ -509,7 +509,7 @@ button {
       left: 0;
       height: 100%;
       width: 100%;
-      background: url("images/arrow.png") no-repeat center; }
+      background: url("../images/arrow.png") no-repeat center; }
     .secondary-news__button::after {
       content: "Подробнее";
       position: absolute;
@@ -564,7 +564,7 @@ button {
       left: 0;
       height: 100%;
       width: 100%;
-      background: url("images/arrow-left.svg") no-repeat center; }
+      background: url("../images/arrow-left.svg") no-repeat center; }
   .secondary-news__next {
     background: transparent; }
     .secondary-news__next::after {
@@ -574,7 +574,7 @@ button {
       left: 0;
       height: 100%;
       width: 100%;
-      background: url("images/arrow-right.svg") no-repeat center; }
+      background: url("../images/arrow-right.svg") no-repeat center; }
 
 .socials {
   display: -webkit-box;
