@@ -509,7 +509,7 @@ button {
       left: 0;
       height: 100%;
       width: 100%;
-      background: url("../images/arrow.png") no-repeat center; }
+      background: url("images/arrow.png") no-repeat center; }
     .secondary-news__button::after {
       content: "Подробнее";
       position: absolute;
@@ -564,7 +564,7 @@ button {
       left: 0;
       height: 100%;
       width: 100%;
-      background: url("../images/arrow-left.svg") no-repeat center; }
+      background: url("images/arrow-left.svg") no-repeat center; }
   .secondary-news__next {
     background: transparent; }
     .secondary-news__next::after {
@@ -574,7 +574,7 @@ button {
       left: 0;
       height: 100%;
       width: 100%;
-      background: url("../images/arrow-right.svg") no-repeat center; }
+      background: url("images/arrow-right.svg") no-repeat center; }
 
 .socials {
   display: -webkit-box;
