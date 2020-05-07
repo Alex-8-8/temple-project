@@ -576,7 +576,7 @@ button {
       width: 100%;
       background: url("/images/arrow-right.svg") no-repeat center; }
 
-.social-media {
+.socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -588,16 +588,16 @@ button {
           align-items: center;
   width: 173px; }
   @media (max-width: 600px) {
-    .social-media {
+    .socials {
       max-width: 120px; } }
-  .social-media__icon {
+  .socials__icon {
     fill: #ccc;
     -webkit-transition: fill 0.3s;
     transition: fill 0.3s; }
-  .social-media__link {
+  .socials__link {
     text-align: center;
     width: 23px; }
-    .social-media__link:hover .social-media__icon {
+    .socials__link:hover .socials__icon {
       fill: #48974c; }
 
 .construction {
@@ -744,7 +744,7 @@ button {
     font-family: "Cormorant Infant", serif;
     font-style: italic;
     color: #f4f4f4; }
-  .footer__social-medias {
+  .footer__socials {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
