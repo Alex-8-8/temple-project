@@ -243,7 +243,7 @@
   }
 }
 
-.social-media {
+.socials {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -258,7 +258,7 @@
   &__link {
     text-align: center;
     width: 23px;
-    &:hover .social-media__icon {
+    &:hover .socials__icon {
       fill: $links-buttons-color;
     }
   }
