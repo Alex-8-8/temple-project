@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
 
 body {
   font-family: "PT Sans", sans-serif;
