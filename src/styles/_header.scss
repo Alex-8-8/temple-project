@@ -158,7 +158,7 @@
     padding: 150px;
     flex-direction: column;
     height: calc(100vh - 150px);
-    width: 100vw;
+    width: calc(100vw - 17px);
     z-index: 1;
     background-color: $bg-sections-color;
     .navigation__item {
